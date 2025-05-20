@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+ <div className="flex flex-col items-center justify-center w-full p-4 border rounded-lg shadow-md">
+          <Image
+            src="/images/lugage.png"
+            alt="Lugage"
+            width={400}
+            height={400}
+            className="w-32 h-32 mb-4"
+          />
+          <h2 className="text-xl font-semibold">Lugage 1</h2>
+          <p className="text-sm text-gray-500">Description of Lugage 1</p>
+        </div>
 ## Getting Started
 
 First, run the development server:
