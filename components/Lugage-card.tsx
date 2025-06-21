@@ -2,10 +2,10 @@ import React from "react";
 
 const LugageCard = () => {
   return (
-    <article className="card">
+    <article className="card border shadow-sm">
       <section className="card__hero">
         <header className="card__hero-header">
-          <span>$150/hr</span>
+          <span>Corei5</span>
           <div className="card__icon">
             <svg
               height="20"
@@ -25,12 +25,12 @@ const LugageCard = () => {
           </div>
         </header>
 
-        <p className="card__job-title">Senior Backend Engineer</p>
+        <p className="card__job-title">HP Elite Book 2021</p>
       </section>
 
       <footer className="card__footer">
         <div className="card__job-summary">
-          <div className="card__job-icon">
+          {/* <div className="card__job-icon">
             <svg
               height="35"
               width="28"
@@ -54,11 +54,11 @@ const LugageCard = () => {
                 d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"
               ></path>
             </svg>
-          </div>
+          </div> */}
           <div className="card__job">
-            <p className="card__job-title">
-              Senior Backend <br />
-              Engineer
+            <p className="text-gray-500 text-xs">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, iste.
             </p>
           </div>
         </div>

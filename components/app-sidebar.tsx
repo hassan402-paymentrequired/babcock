@@ -150,22 +150,22 @@ const data = {
     },
     {
       name: "Notice Board",
-      url: "#",
+      url: "/notice-board",
       icon: Map,
     },
     {
-      name: "Raise Complain",
-      url: "#",
+      name: "Complaints",
+      url: "/complaints",
       icon: Map,
     },
     {
       name: "Apply leave",
-      url: "#",
+      url: "/request-leave",
       icon: Map,
     },
     {
       name: "Leaderboard",
-      url: "#",
+      url: "/leaderboard",
       icon: Map,
     },
   ],

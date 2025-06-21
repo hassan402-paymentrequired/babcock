@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -41,6 +42,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --font-shake: "Share Tech", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -131,7 +133,7 @@
 .card {
   margin: auto;
   width: min(300px, 100%);
-  background-color: #fefefe;
+  background-color: #fefefefa;
   border-radius: 1rem;
   padding: 0.5rem;
   color: #141417;

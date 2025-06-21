@@ -15,7 +15,7 @@ const RoomBooking = () => {
     },
     {
       title: "Room 2",
-      description: "Dive into the transformative power of technology.",
+      description: "Dive into life the transformative power of technology.",
       header: <Skeleton />,
       icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     },
