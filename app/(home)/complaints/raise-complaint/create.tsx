@@ -20,7 +20,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { useToast } from "@/hooks/use-toast";
+// import { useToast } from "@/hooks/use-toast";
 import { Checkbox } from "@/components/ui/checkbox";
 
 interface AssignTaskModalProps {
@@ -29,7 +29,7 @@ interface AssignTaskModalProps {
 }
 
 export function MakeComplaint({ open, onClose }: AssignTaskModalProps) {
-  const { toast } = useToast();
+  // const { toast } = useToast();
   const [taskData, setTaskData] = useState({
     title: "",
     description: "",
@@ -55,10 +55,10 @@ export function MakeComplaint({ open, onClose }: AssignTaskModalProps) {
     e.preventDefault();
     console.log("Assigning task:", taskData);
 
-    toast({
-      title: "Task assigned successfully",
-      description: `Task "${taskData.title}" has been assigned to ${taskData.assignee}.`,
-    });
+    // toast({
+    //   title: "Task assigned successfully",
+    //   description: `Task "${taskData.title}" has been assigned to ${taskData.assignee}.`,
+    // });
 
     onClose();
     // Reset form
