@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import * as React from "react"
 import { ToasterProps } from "sonner"
 
@@ -16,12 +17,12 @@ type ToasterToast = ToasterProps & {
   action?: any
 }
 
-const actionTypes = {
-  ADD_TOAST: "ADD_TOAST",
-  UPDATE_TOAST: "UPDATE_TOAST",
-  DISMISS_TOAST: "DISMISS_TOAST",
-  REMOVE_TOAST: "REMOVE_TOAST",
-} as const
+// const actionTypes = {
+//   ADD_TOAST: "ADD_TOAST",
+//   UPDATE_TOAST: "UPDATE_TOAST",
+//   DISMISS_TOAST: "DISMISS_TOAST",
+//   REMOVE_TOAST: "REMOVE_TOAST",
+// } as const
 
 let count = 0
 
@@ -155,10 +156,10 @@ function toast({ ...props }: Toast) {
     toast: {
       ...props,
       id,
-      open: true,
-      onOpenChange: (open) => {
-        if (!open) dismiss()
-      },
+      // open: true,
+      // onOpenChange: (open) => {
+      //   if (!open) dismiss()
+      // },
     },
   })
 
