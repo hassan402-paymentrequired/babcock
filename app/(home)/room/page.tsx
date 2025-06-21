@@ -11,7 +11,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Bed, Users, MapPin, CheckCircle } from "lucide-react";
-import { toast } from "@/hooks/use-toast";
+// import { toast } from "@/hooks/use-toast";
 import Link from "next/link";
 
 const Rooms = () => {
@@ -129,19 +129,19 @@ const Rooms = () => {
 
   const handleRoomSelect = (roomId: string, hostelName: string) => {
     if (studentHasRoom) {
-      toast({
-        title: "Room Already Selected",
-        description:
-          "You have already selected a room. Please contact admin to change rooms.",
-        // variant: "destructive",
-      });
-      return;
+    //   toast({
+    //     title: "Room Already Selected",
+    //     description:
+    //       "You have already selected a room. Please contact admin to change rooms.",
+    //     // variant: "destructive",
+    //   });
+    //   return;
     }
 
-    toast({
-      title: "Room Selected Successfully",
-      description: `You have selected room ${roomId} in ${hostelName}. You can now register your luggage.`,
-    });
+    // toast({
+    //   title: "Room Selected Successfully",
+    //   description: `You have selected room ${roomId} in ${hostelName}. You can now register your luggage.`,
+    // });
     setStudentHasRoom(true);
   };
 
