@@ -4,7 +4,7 @@ import * as React from "react";
 import {
   LayoutDashboard,
   GalleryVerticalEnd,
-  Map,
+  
   LaptopMinimalCheck,
   Hand,
   BriefcaseBusiness,
