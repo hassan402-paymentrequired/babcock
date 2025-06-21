@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
-import { Calendar, Clock, Phone } from "lucide-react";
+import { Calendar, Clock } from "lucide-react";
 
 const LeaveApplication = () => {
   const leaveHistory = [
@@ -15,7 +15,7 @@ const LeaveApplication = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-100 p-6">
+    <div className="min-h-screen bg-sidebar p-6">
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900">Leave Application</h1>

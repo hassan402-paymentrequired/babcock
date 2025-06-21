@@ -10,6 +10,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { AlertTriangle, Plus, Clock, CheckCircle, Camera } from "lucide-react";
 import { useState } from "react";
+import Link from "next/link";
 
 interface Complaint {
   id: number;
@@ -272,9 +273,11 @@ const Complaint = () => {
                 </div>
               )}
               {complaint.status !== 'resolved' && (
+                <Link href="/complaints/4">
                 <Button variant="outline" size="sm" className="mt-3">
                   View Details
                 </Button>
+                </Link>
               )}
             </CardContent>
           </Card>

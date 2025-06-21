@@ -3,8 +3,9 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Bell, Search, Filter } from "lucide-react";
+import { Bell, Search } from "lucide-react";
 import { useState } from "react";
+import Link from "next/link";
 
 interface Notice {
   id: number;
@@ -153,9 +154,9 @@ const NoticeBoard = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 leading-relaxed">{notice.content}</p>
-              <Button variant="link" className="p-0 h-auto mt-3">
+              <Link href="/notice-board/4" className="p-0 h-auto mt-3">
                 Read more →
-              </Button>
+              </Link>
             </CardContent>
           </Card>
         ))}

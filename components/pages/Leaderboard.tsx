@@ -18,7 +18,7 @@ const Leaderboard = () => {
   const students: Student[] = [
     {
       id: 1,
-      name: "Priya Sharma",
+      name: "Inioluwa Adenike",
       rollNumber: "CS2021005",
       room: "A-301",
       meritPoints: 485,
@@ -28,7 +28,7 @@ const Leaderboard = () => {
     },
     {
       id: 2,
-      name: "Rahul Kumar",
+      name: "James man",
       rollNumber: "EE2021023",
       room: "B-205",
       meritPoints: 420,
@@ -38,7 +38,7 @@ const Leaderboard = () => {
     },
     {
       id: 3,
-      name: "Ananya Singh",
+      name: "John Doe",
       rollNumber: "ME2021014",
       room: "A-408",
       meritPoints: 395,
@@ -48,7 +48,7 @@ const Leaderboard = () => {
     },
     {
       id: 4,
-      name: "Vikram Reddy",
+      name: "Vinicious cook",
       rollNumber: "CS2021018",
       room: "C-102",
       meritPoints: 380,
@@ -58,7 +58,7 @@ const Leaderboard = () => {
     },
     {
       id: 5,
-      name: "Sakshi Patel",
+      name: "Kechine Spoon",
       rollNumber: "IT2021007",
       room: "B-310",
       meritPoints: 365,
@@ -68,7 +68,7 @@ const Leaderboard = () => {
     },
     {
       id: 6,
-      name: "Arjun Mehta",
+      name: "Chef melon",
       rollNumber: "EC2021012",
       room: "A-207",
       meritPoints: 350,
@@ -78,7 +78,7 @@ const Leaderboard = () => {
     },
     {
       id: 7,
-      name: "Kavya Nair",
+      name: "Mariam hoe",
       rollNumber: "CS2021031",
       room: "C-405",
       meritPoints: 335,
@@ -88,7 +88,7 @@ const Leaderboard = () => {
     },
     {
       id: 8,
-      name: "Rohan Gupta",
+      name: "Patrick mango",
       rollNumber: "ME2021026",
       room: "B-108",
       meritPoints: 320,
@@ -98,7 +98,7 @@ const Leaderboard = () => {
     },
     {
       id: 9,
-      name: "Deepika Joshi",
+      name: "Done Pen",
       rollNumber: "EE2021019",
       room: "A-315",
       meritPoints: 305,
@@ -108,7 +108,7 @@ const Leaderboard = () => {
     },
     {
       id: 10,
-      name: "Siddharth Rao",
+      name: "Rafel Rao",
       rollNumber: "IT2021033",
       room: "C-201",
       meritPoints: 290,
@@ -118,7 +118,7 @@ const Leaderboard = () => {
     },
     {
       id: 11,
-      name: "Neha Verma",
+      name: "Buhns Cunn",
       rollNumber: "CS2021045",
       room: "B-412",
       meritPoints: 275,
