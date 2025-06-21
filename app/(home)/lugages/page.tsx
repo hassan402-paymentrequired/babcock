@@ -1,6 +1,5 @@
 "use client";
 import LuggageManagement from "@/components/pages/LugageManagement";
-import { Button } from "@/components/ui/button";
 import React from "react";
 
 const Lugages = () => {

@@ -47,11 +47,7 @@ export function MakeComplaint({ open, onClose }: AssignTaskModalProps) {
     "Other (specify)",
   ];
 
-  const projects = [
-    "E-commerce Platform",
-    "Mobile App Redesign",
-    "Data Migration",
-  ];
+ 
 
   const urgencyLevel = ["Low", "Medium", "High", "Critical"];
 
@@ -143,7 +139,7 @@ export function MakeComplaint({ open, onClose }: AssignTaskModalProps) {
                 onValueChange={(value) =>
                   setTaskData((prev) => ({ ...prev, assignee: value }))
                 }
-                className="w-full"
+                // className="w-full"
               >
                 <SelectTrigger className="border-stone-800">
                   <SelectValue placeholder="Select complaint type" />

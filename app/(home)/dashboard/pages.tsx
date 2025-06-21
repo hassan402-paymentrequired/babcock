@@ -1,32 +1,16 @@
 import {
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconPencilX,
   IconAngle,
 } from "@tabler/icons-react";
 import React from "react";
 import Image from "next/image";
 import { Plus } from "lucide-react";
-import Link from "next/link";
 import MateCard from "@/components/mate-card";
 import { Button } from "@/components/ui/button";
 import MiniCard from "@/components/mini-card";
 import RecentComplaint from "@/components/recent-complaints";
 
 const Dashboard = () => {
-  const Skeleton = () => (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100">
-      <Image
-        src="/images/banner.jpg"
-        alt="Placeholder"
-        className="object-cover w-full h-full rounded-xl"
-        width={400}
-        height={400}
-        priority
-      />
-    </div>
-  );
+ 
 
   return (
     <div className=" grid max-w-7xl max-md:mx-auto  px-5 gap-4 ">
